@@ -1,0 +1,84 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    margin:0;padding:0;
+}
+body {
+    font-family:Calibri;
+    color:#464646;
+    background-color:#f2f2f2;
+}
+.tasiyici {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 820px;
+    box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
+    -moz-box-shadow: 1px 13px 18px -10px rgba(0,0,0,0.76);
+}
+.sol {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    float:left;
+    height:350px
+}
+.sag {
+    /*background-color: #fe4385;*/
+    background-image: url(../resimler/login_background.jpg);
+    padding: 30px;
+    width: 350px;
+    float: left;
+    height: 350px;
+    color:white;
+    text-align:center;
+}
+.baslik{
+    margin-top:90px;
+}
+.satir{
+    padding:10px 0;
+}
+.metinKutu
+{
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    background-color:#efefef;
+    width:328px;
+}
+.uyelink{
+    border-radius:20px;
+    color:white;
+    border:1px solid white;
+    padding:7px 20px;
+    text-decoration:none;
+}
+.girisButton {
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    width:350px;
+    background-image:url(../resimler/login_background.jpg);
+    border:none;
+    font-size:12pt;
+    cursor:pointer;
+}
+    .girisButton:hover {
+        background-image: none;
+        background-color: #fe4385;
+    }
+.unuttum{
+    color:dimgrey;
+    text-decoration:none;
+}
+.panelBasarisiz {
+    background-color: #fe4385;
+    color: white;
+    padding: 10px;
+    width: 328px;
+    border: 1px solid #FE4250;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+

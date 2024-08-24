@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\giris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\giris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\giris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\giris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Giris.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx.cs",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx.cs",
+              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:11:46.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Giris.aspx",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-24T13:32:05.869Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
