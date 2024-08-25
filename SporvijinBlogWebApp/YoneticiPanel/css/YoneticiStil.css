@@ -1,0 +1,32 @@
+﻿*,h1,h2,h3,h4,h5,h6, ul, li, ol{
+    margin:0; padding:0;
+}
+body {
+    font-family: Poppins;
+}
+.ustcubuk {
+    background-color: #FE434E;
+    min-height: 80px;
+    color: white;
+}
+.anaBaslik{
+    padding:10px 20px;
+    width:200px;
+    float:left;
+}
+.kullaniciAlani {
+    padding: 10px 20px;
+    width: 300px;
+    float: right;
+}
+.kullanicieleman
+{
+    padding-top:15px;
+    padding-left:10px;
+    color:white;
+    float:left;
+    text-decoration:none;
+}
+    .kullanicieleman:hover {
+        text-decoration: underline;
+    }

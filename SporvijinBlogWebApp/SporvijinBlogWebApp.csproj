@@ -70,6 +70,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\css\girisStil.css" />
+    <Content Include="YoneticiPanel\css\YoneticiStil.css" />
     <Content Include="YoneticiPanel\Giris.aspx" />
     <Content Include="YoneticiPanel\resimler\login_background.jpg" />
   </ItemGroup>
@@ -89,6 +90,20 @@
     <Compile Include="YoneticiPanel\Giris.aspx.designer.cs">
       <DependentUpon>Giris.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YoneticiPanel\YoneticiDefault.aspx.cs">
+      <DependentUpon>YoneticiDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiDefault.aspx.designer.cs">
+      <DependentUpon>YoneticiDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiMaster.Master.cs">
+      <DependentUpon>YoneticiMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiMaster.Master.designer.cs">
+      <DependentUpon>YoneticiMaster.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -98,6 +113,14 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="YoneticiPanel\YoneticiDefault.aspx" />
+    <Content Include="YoneticiPanel\YoneticiMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VeriErisimKatmani\VeriErisimKatmani.csproj">
+      <Project>{a63b0ef7-e6cd-44f9-813e-d5c002b6c07a}</Project>
+      <Name>VeriErisimKatmani</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

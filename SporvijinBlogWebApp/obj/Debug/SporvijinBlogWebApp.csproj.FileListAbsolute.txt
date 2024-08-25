@@ -57,3 +57,5 @@ C:\Users\303\Documents\GitHub\SporVijinBlog\SporvijinBlogWebApp\obj\Debug\Sporvi
 C:\Users\303\Documents\GitHub\SporVijinBlog\SporvijinBlogWebApp\obj\Debug\Sporviji.D26628CF.Up2Date
 C:\Users\303\Documents\GitHub\SporVijinBlog\SporvijinBlogWebApp\obj\Debug\SporvijinBlogWebApp.dll
 C:\Users\303\Documents\GitHub\SporVijinBlog\SporvijinBlogWebApp\obj\Debug\SporvijinBlogWebApp.pdb
+C:\Users\303\Documents\GitHub\SporVijinBlog\SporvijinBlogWebApp\bin\VeriErisimKatmani.dll
+C:\Users\303\Documents\GitHub\SporVijinBlog\SporvijinBlogWebApp\bin\VeriErisimKatmani.pdb

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SporvijinBlogWebApp", "SporvijinBlogWebApp\SporvijinBlogWebApp.csproj", "{FCA30860-B765-439B-ACD3-BC7225B92F76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriErisimKatmani", "VeriErisimKatmani\VeriErisimKatmani.csproj", "{A63B0EF7-E6CD-44F9-813E-D5C002B6C07A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FCA30860-B765-439B-ACD3-BC7225B92F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCA30860-B765-439B-ACD3-BC7225B92F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCA30860-B765-439B-ACD3-BC7225B92F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63B0EF7-E6CD-44F9-813E-D5C002B6C07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63B0EF7-E6CD-44F9-813E-D5C002B6C07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63B0EF7-E6CD-44F9-813E-D5C002B6C07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63B0EF7-E6CD-44F9-813E-D5C002B6C07A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
