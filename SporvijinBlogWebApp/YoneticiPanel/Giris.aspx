@@ -19,7 +19,7 @@
                 </asp:Panel>
                 <div class="satir">
                     <label>Mail</label><br />
-                    <asp:TextBox ID="tb_mail" runat="server" CssClass="metinKutu" placeholder="ornek@ornek.com"></asp:TextBox>
+                    <asp:TextBox ID="tb_mail" runat="server" CssClass="metinKutu" placeholder="ornek@ornek.com" Text="alpsarikisla@hotmail.com"></asp:TextBox>
                 </div>
                 <div class="satir">
                     <label>Şifre</label><br />

@@ -3,6 +3,7 @@
 }
 body {
     font-family: Poppins;
+
 }
 .ustcubuk {
     background-color: #FE434E;
@@ -30,3 +31,28 @@ body {
     .kullanicieleman:hover {
         text-decoration: underline;
     }
+.anaMenu{
+    width:210px;
+    padding:20px 0;
+    background-color:#e4e4e4;
+    height:850px;
+    float:left;
+}
+.anaMenu .cizgi{
+    border-bottom:1px solid white;
+
+}
+.anaMenu a {
+    text-decoration: none;
+    display: block;
+    color: #7a060d;
+    padding: 5px 15px;
+}
+    .anaMenu a:hover {
+        color: white;
+        background-color:#d8a7a7;
+    }
+.anaIcerik{
+    float:left;
+    padding:20px;
+}

@@ -1,0 +1,48 @@
+﻿.sayfaBaslik {
+    padding: 10px;
+    margin-bottom:10px;
+    border-bottom: 1px solid silver;
+}
+.tablo {
+    width: 1350px;
+}
+.tablo tr{
+
+}
+    .tablo tr th {
+        background-color: #e9e9e9;
+        padding: 10px;
+        text-align: left;
+        border: 1px solid silver;
+    }
+    .tablo tr td {
+        border: 1px solid silver;
+        padding: 10px;
+    }
+    .tablo .alternate td
+    {
+        background-color:#efefef;
+    }
+.tablobutton {
+    padding:8px 5px;
+    font-size: 10pt;
+    border-radius: 3px;
+    text-decoration: none;
+   
+}
+.tablobutton img
+{
+    margin-bottom:-7px;
+}
+.duzenle {
+    background-color: #0092ff;
+    color: white;
+}
+.durum {
+    background-color: #ffd800;
+    color: white;
+}
+.sil {
+    background-color: #ff0000;
+    color: white;
+}

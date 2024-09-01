@@ -21,13 +21,29 @@
             </div>
             <div class="kullaniciAlani">
                 <asp:Label ID="lbl_kullanici" runat="server" CssClass="kullanicieleman">Kullanıcı Adı(Yetki)</asp:Label>
-                <asp:LinkButton ID="lbtn_cikis" runat="server"  CssClass="kullanicieleman" OnClick="lbtn_cikis_Click">Güvenli Çıkış</asp:LinkButton>
+                <asp:LinkButton ID="lbtn_cikis" runat="server" CssClass="kullanicieleman" OnClick="lbtn_cikis_Click">Güvenli Çıkış</asp:LinkButton>
             </div>
-            <div style="clear:both"></div>
+            <div style="clear: both"></div>
         </div>
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            <div class="anaMenu">
+                <a href="YoneticiDefault.aspx">Anasayfa</a>
+                <div class="cizgi"></div>
+                <a href="KategoriEkle.aspx">Kategori Ekle</a>
+                <a href="KategoriListele.aspx">Kategori Listele</a>
+                <div class="cizgi"></div>
+                <a href="MakaleEkle.aspx">Makale Ekle</a>
+                <a href="YoneticiDefault.aspx">Makale Listele</a>
+                <div class="cizgi"></div>
+                <a href="YoneticiDefault.aspx">Üyeler</a>
+                <a href="YoneticiDefault.aspx">Yorumlar</a>
+                <div class="cizgi"></div>
+                <a href="YoneticiDefault.aspx">Yazar/Yönetici</a>
+            </div>
+            <div class="anaIcerik">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
         </div>
     </form>
 </body>
