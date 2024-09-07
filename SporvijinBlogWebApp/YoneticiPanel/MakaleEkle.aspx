@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/YoneticiPanel/YoneticiMaster.Master" AutoEventWireup="true" CodeBehind="MakaleEkle.aspx.cs" Inherits="SporvijinBlogWebApp.YoneticiPanel.MakaleEkle" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/YoneticiPanel/YoneticiMaster.Master" AutoEventWireup="true" CodeBehind="MakaleEkle.aspx.cs" Inherits="SporvijinBlogWebApp.YoneticiPanel.MakaleEkle" ValidateRequest="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="css/FormSayfasi.css" rel="stylesheet" />
@@ -10,6 +10,13 @@
             <h3>Makale Ekle</h3>
         </div>
         <div class="formIcerik">
+            <asp:Panel ID="pnl_basarili" runat="server" CssClass="basariliPanel" Visible="false">
+                <strong>Başarılı!</strong> Makale Başarıyla Eklenmiştir
+            </asp:Panel>
+            <asp:Panel ID="pnl_basarisiz" runat="server" CssClass="basarisizPanel" Visible="false">
+                <strong>Başarısız!</strong>
+                <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
+            </asp:Panel>
             <div style="float: left; width: 690px">
                 <div class="satir">
                     <label>Makale Başlığı</label><br />
@@ -28,7 +35,7 @@
                     <asp:CheckBox ID="cb_yayinla" runat="server" Text="  Makaleyi Yayınla" />
                 </div>
                 <div class="satir">
-                    <asp:LinkButton ID="lbtn_makaleEkle" runat="server" CssClass="islemButton">Makale Ekle</asp:LinkButton>
+                    <asp:LinkButton ID="lbtn_makaleEkle" runat="server" CssClass="islemButton" OnClick="lbtn_makaleEkle_Click">Makale Ekle</asp:LinkButton>
                 </div>
             </div>
             <div style="float: left; width: 600px">

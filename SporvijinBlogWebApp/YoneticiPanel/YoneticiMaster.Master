@@ -33,7 +33,7 @@
                 <a href="KategoriListele.aspx">Kategori Listele</a>
                 <div class="cizgi"></div>
                 <a href="MakaleEkle.aspx">Makale Ekle</a>
-                <a href="YoneticiDefault.aspx">Makale Listele</a>
+                <a href="MakaleListele.aspx">Makale Listele</a>
                 <div class="cizgi"></div>
                 <a href="YoneticiDefault.aspx">Üyeler</a>
                 <a href="YoneticiDefault.aspx">Yorumlar</a>

@@ -47,6 +47,7 @@ CREATE TABLE Makaleler
 	KategoriID int,
 	YazarID int,
 	Baslik nvarchar(250),
+	Ozet nvarchar(500),
 	Icerik ntext,
 	EklemeTarihi Datetime,
 	GoruntulemeSayisi bigint,

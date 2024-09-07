@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Resimler\MakaleResimleri\none.png" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\ckeditor\adapters\jquery.js" />
     <Content Include="YoneticiPanel\ckeditor\build-config.js" />
@@ -389,6 +390,7 @@
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
     <Content Include="YoneticiPanel\MakaleEkle.aspx" />
+    <Content Include="YoneticiPanel\MakaleListele.aspx" />
     <Content Include="YoneticiPanel\resimler\delete.png" />
     <Content Include="YoneticiPanel\resimler\edit.png" />
     <Content Include="YoneticiPanel\resimler\login_background.jpg" />
@@ -436,6 +438,13 @@
     </Compile>
     <Compile Include="YoneticiPanel\MakaleEkle.aspx.designer.cs">
       <DependentUpon>MakaleEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.designer.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel\YoneticiDefault.aspx.cs">
       <DependentUpon>YoneticiDefault.aspx</DependentUpon>
@@ -486,6 +495,7 @@
       <Name>VeriErisimKatmani</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
