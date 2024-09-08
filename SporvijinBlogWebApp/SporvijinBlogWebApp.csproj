@@ -389,6 +389,7 @@
     <Content Include="YoneticiPanel\KategoriDuzenle.aspx" />
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
+    <Content Include="YoneticiPanel\MakaleDuzenle.aspx" />
     <Content Include="YoneticiPanel\MakaleEkle.aspx" />
     <Content Include="YoneticiPanel\MakaleListele.aspx" />
     <Content Include="YoneticiPanel\resimler\delete.png" />
@@ -431,6 +432,13 @@
     </Compile>
     <Compile Include="YoneticiPanel\KategoriListele.aspx.designer.cs">
       <DependentUpon>KategoriListele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleDuzenle.aspx.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleDuzenle.aspx.designer.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel\MakaleEkle.aspx.cs">
       <DependentUpon>MakaleEkle.aspx</DependentUpon>

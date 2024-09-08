@@ -19,7 +19,13 @@ namespace SporvijinBlogWebApp.YoneticiPanel
 
         protected void lv_Makaleler_ItemCommand(object sender, ListViewCommandEventArgs e)
         {
-
+            int makid = Convert.ToInt32(e.CommandArgument);
+            if (e.CommandName == "sil")
+            {
+                vm.MakaleSil(makid);
+            }
+            lv_Makaleler.DataSource = vm.MakaleListele();
+            lv_Makaleler.DataBind();
         }
     }
 }

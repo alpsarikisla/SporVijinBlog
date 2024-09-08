@@ -374,6 +374,91 @@ namespace VeriErisimKatmani
             }
         }
 
+        public Makale MakaleGetir(int id)
+        {
+            try
+            {
+                komut.CommandText = "SELECT M.ID, M.KategoriID, K.Isim, M.YazarID, Y.KullaniciAdi, M.Ozet, M.Icerik, M.Baslik, M.EklemeTarihi, M.GoruntulemeSayisi, M.KapakResim, M.Durum FROM Makaleler AS M JOIN Kategoriler AS K ON M.KategoriID = K.ID JOIN Yoneticiler AS Y ON M.YazarID = Y.ID WHERE M.ID = @id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                Makale mak = new Makale();
+                while (okuyucu.Read())
+                {
+                    mak.ID = okuyucu.GetInt32(0);
+                    mak.KategoriID = okuyucu.GetInt32(1);
+                    mak.Kategori = okuyucu.GetString(2);
+                    mak.YazarID = okuyucu.GetInt32(3);
+                    mak.Yazar = okuyucu.GetString(4);
+                    mak.Ozet = okuyucu.GetString(5);
+                    mak.Icerik = okuyucu.GetString(6);
+                    mak.Baslik = okuyucu.GetString(7);
+                    mak.EklemeTarihi = okuyucu.GetDateTime(8);
+                    mak.GoruntulemeSayisi = okuyucu.GetInt64(9);
+                    mak.KapakResim = okuyucu.GetString(10);
+                    mak.Durum = okuyucu.GetBoolean(11);
+                }
+                return mak;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        public bool MakaleDuzenle(Makale mak)
+        {
+            try
+            {
+                komut.CommandText = "UPDATE Makaleler SET KategoriID=kategoriId, Baslik=@baslik, Icerik=@icerik, Ozet=@ozet, KapakResim=@kapakresim, Durum=@durum WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@kategoriId", mak.KategoriID);
+                komut.Parameters.AddWithValue("@baslik", mak.Baslik);
+                komut.Parameters.AddWithValue("@icerik", mak.Icerik);
+                komut.Parameters.AddWithValue("@ozet", mak.Ozet);
+                komut.Parameters.AddWithValue("@kapakresim", mak.KapakResim);
+                komut.Parameters.AddWithValue("@durum", mak.Durum);
+                komut.Parameters.AddWithValue("@id", mak.ID);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        public void MakaleSil(int id)
+        {
+            try
+            {
+                komut.CommandText = "DELETE FROM Yorumlar WHERE MakaleID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                komut.CommandText = "DELETE FROM Makaleler WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                komut.ExecuteNonQuery();
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
         #endregion
     }
 }

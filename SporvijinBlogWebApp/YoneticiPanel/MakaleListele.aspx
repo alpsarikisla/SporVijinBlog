@@ -38,8 +38,11 @@
                      <td><%# Eval("GoruntulemeSayisi") %></td>
                     <td><%# Eval("Durum") %></td>
                     <td>
-                       
-                       
+                        <a href='MakaleDuzenle.aspx?makaleId=<%# Eval("ID") %>' class="tablobutton duzenle">
+     <img src="resimler/edit.png" /></a>
+                        <asp:LinkButton ID="lbtn_sil" runat="server" CommandArgument='<%# Eval("ID") %>' CommandName="sil" class="tablobutton sil" >
+                               <img src="resimler/delete.png" />
+                        </asp:LinkButton>
                     </td>
                 </tr>
             </ItemTemplate>
