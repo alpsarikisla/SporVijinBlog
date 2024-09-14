@@ -127,7 +127,6 @@ namespace VeriErisimKatmani
                 baglanti.Close();
             }
         }
-
         public List<Kategori> KategoriListele(bool silinmis)
         {
             List<Kategori> kategoriler = new List<Kategori>();
@@ -374,6 +373,46 @@ namespace VeriErisimKatmani
             }
         }
 
+        public List<Makale> MakaleListele(int kid)
+        {
+            List<Makale> makaleler = new List<Makale>();
+            try
+            {
+                komut.CommandText = "SELECT M.ID, M.KategoriID, K.Isim, M.YazarID, Y.KullaniciAdi, M.Ozet, M.Icerik, M.Baslik, M.EklemeTarihi, M.GoruntulemeSayisi, M.KapakResim, M.Durum FROM Makaleler AS M JOIN Kategoriler AS K ON M.KategoriID = K.ID JOIN Yoneticiler AS Y ON M.YazarID = Y.ID WHERE M.KategoriID = @kid";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@kid", kid);
+
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Makale mak = new Makale();
+                    mak.ID = okuyucu.GetInt32(0);
+                    mak.KategoriID = okuyucu.GetInt32(1);
+                    mak.Kategori = okuyucu.GetString(2);
+                    mak.YazarID = okuyucu.GetInt32(3);
+                    mak.Yazar = okuyucu.GetString(4);
+                    mak.Ozet = okuyucu.GetString(5);
+                    mak.Icerik = okuyucu.GetString(6);
+                    mak.Baslik = okuyucu.GetString(7);
+                    mak.EklemeTarihi = okuyucu.GetDateTime(8);
+                    mak.GoruntulemeSayisi = okuyucu.GetInt64(9);
+                    mak.KapakResim = okuyucu.GetString(10);
+                    mak.Durum = okuyucu.GetBoolean(11);
+                    makaleler.Add(mak);
+                }
+                return makaleler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
         public Makale MakaleGetir(int id)
         {
             try
@@ -416,7 +455,7 @@ namespace VeriErisimKatmani
         {
             try
             {
-                komut.CommandText = "UPDATE Makaleler SET KategoriID=kategoriId, Baslik=@baslik, Icerik=@icerik, Ozet=@ozet, KapakResim=@kapakresim, Durum=@durum WHERE ID=@id";
+                komut.CommandText = "UPDATE Makaleler SET KategoriID=@kategoriId, Baslik=@baslik, Icerik=@icerik, Ozet=@ozet, KapakResim=@kapakresim, Durum=@durum WHERE ID=@id";
                 komut.Parameters.Clear();
                 komut.Parameters.AddWithValue("@kategoriId", mak.KategoriID);
                 komut.Parameters.AddWithValue("@baslik", mak.Baslik);

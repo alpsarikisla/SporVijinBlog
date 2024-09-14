@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\makalelistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\makalelistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\makalelistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\makalelistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\makaleduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\makaleduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A63B0EF7-E6CD-44F9-813E-D5C002B6C07A}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\verierisimkatmani\\verimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +23,28 @@
       "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\makaleduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\makaleduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\makaleduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\giris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\giris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A63B0EF7-E6CD-44F9-813E-D5C002B6C07A}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\verierisimkatmani\\makale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A63B0EF7-E6CD-44F9-813E-D5C002B6C07A}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\makale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\makaleekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\makaleekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\css\\tasarim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\css\\tasarim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\masterpage.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\masterpage.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|c:\\users\\303\\documents\\github\\sporvijinblog\\sporvijinblogwebapp\\yoneticipanel\\css\\yoneticistil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FCA30860-B765-439B-ACD3-BC7225B92F76}|SporvijinBlogWebApp\\SporvijinBlogWebApp.csproj|solutionrelative:sporvijinblogwebapp\\yoneticipanel\\css\\yoneticistil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,33 +53,78 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 255,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 165,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MakaleListele.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleListele.aspx.cs",
-              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleListele.aspx.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleListele.aspx.cs",
-              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleListele.aspx.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T14:34:23.383Z",
+              "DocumentIndex": 10,
+              "Title": "YoneticiStil.css",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\css\\YoneticiStil.css",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\css\\YoneticiStil.css",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\css\\YoneticiStil.css",
+              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\css\\YoneticiStil.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-14T13:27:22.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Makale.cs",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\VeriErisimKatmani\\Makale.cs",
-              "RelativeDocumentMoniker": "VeriErisimKatmani\\Makale.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\VeriErisimKatmani\\Makale.cs",
-              "RelativeToolTip": "VeriErisimKatmani\\Makale.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBUAAAAXAAAA",
+              "DocumentIndex": 8,
+              "Title": "tasarim.css",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\css\\tasarim.css",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\css\\tasarim.css",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\css\\tasarim.css",
+              "RelativeToolTip": "SporvijinBlogWebApp\\css\\tasarim.css",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAwDcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-14T13:20:23.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 345,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MakaleDuzenle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx.cs",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx.cs",
+              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T13:15:56.529Z",
+              "WhenOpened": "2024-09-14T14:31:02.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MakaleDuzenle.aspx",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx",
+              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-14T14:30:59.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Giris.aspx",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\Giris.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-14T14:30:24.683Z",
               "EditorCaption": ""
             },
             {
@@ -78,74 +135,74 @@
               "RelativeDocumentMoniker": "VeriErisimKatmani\\VeriModel.cs",
               "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\VeriErisimKatmani\\VeriModel.cs",
               "RelativeToolTip": "VeriErisimKatmani\\VeriModel.cs",
-              "ViewState": "AQIAAJ4BAAAAAAAAAAAywMIBAABJAAAA",
+              "ViewState": "AQIAAMIBAAAAAAAAAIAwwMYBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T13:08:56.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MakaleDuzenle.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx.cs",
-              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx.cs",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx.cs",
-              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAnwDIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T13:08:48.905Z",
+              "WhenOpened": "2024-09-14T14:27:39.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MakaleEkle.aspx",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx",
-              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx",
-              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleEkle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-08T13:07:17.344Z",
+              "Title": "Makale.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\VeriErisimKatmani\\Makale.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\Makale.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\VeriErisimKatmani\\Makale.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\Makale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:27:37.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MakaleDuzenle.aspx",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx",
-              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx",
-              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleDuzenle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-08T13:07:11.58Z",
+              "DocumentIndex": 6,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\Default.aspx.cs",
+              "RelativeToolTip": "SporvijinBlogWebApp\\Default.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:51:27.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "KategoriListele.aspx",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\KategoriListele.aspx",
-              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\KategoriListele.aspx",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\KategoriListele.aspx",
-              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\KategoriListele.aspx",
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\Default.aspx",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\Default.aspx",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\Default.aspx",
+              "RelativeToolTip": "SporvijinBlogWebApp\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-08T13:05:52.924Z",
+              "WhenOpened": "2024-09-14T13:48:31.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MakaleListele.aspx",
-              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleListele.aspx",
-              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleListele.aspx",
-              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\YoneticiPanel\\MakaleListele.aspx",
-              "RelativeToolTip": "SporvijinBlogWebApp\\YoneticiPanel\\MakaleListele.aspx",
+              "DocumentIndex": 9,
+              "Title": "MasterPage.Master.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\MasterPage.Master.cs",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\MasterPage.Master.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\MasterPage.Master.cs",
+              "RelativeToolTip": "SporvijinBlogWebApp\\MasterPage.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:36:24.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\MasterPage.Master",
+              "RelativeDocumentMoniker": "SporvijinBlogWebApp\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\SporVijinBlog\\SporvijinBlogWebApp\\MasterPage.Master",
+              "RelativeToolTip": "SporvijinBlogWebApp\\MasterPage.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-07T14:42:17.182Z",
+              "WhenOpened": "2024-09-14T13:16:03.824Z",
               "EditorCaption": ""
             }
           ]

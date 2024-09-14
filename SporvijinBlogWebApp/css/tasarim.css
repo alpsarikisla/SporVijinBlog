@@ -1,0 +1,66 @@
+﻿*,h1,h2,h3,h4, h5,h6 {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:Calibri;
+}
+.gecici{
+    min-height:500px;
+    border:1px solid silver;
+}
+.anaTasiyici
+{
+    width:1000px;
+    margin:0px auto;
+}
+.sayfaBaslik {
+    width: 400px;
+    padding: 10px 0;
+    color: #FE434E;
+    float:left;
+}
+.uyePanel {
+    width: 400px;
+    float:right;
+    padding:20px 0;
+}
+.uyePanel a {
+    text-decoration:none;
+    color:#c20e18;
+    float:right;
+    margin-left:20px;
+}
+.ayrac{
+    border-bottom:1px solid silver;
+}
+.menu{
+    padding:10px 0px;
+    font-size:14pt;
+}
+    .menu a {
+        padding-right: 10px;
+        color:dimgray;
+        text-decoration:none;
+        font-weight:900;
+    }
+        .menu a:hover {
+            color: #c20e18;
+            text-decoration:underline;
+        }
+.makaleAlani{
+    width:800px;
+    float:left;
+}
+.reklamalani {
+    padding-top:60px;
+    width: 200px;
+    float: right;
+}
+.altbilgi
+{
+    color:gray;
+}
+.makale{
+    margin:20px 0;
+}

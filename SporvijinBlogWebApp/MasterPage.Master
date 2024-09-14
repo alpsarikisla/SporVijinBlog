@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="SporvijinBlogWebApp.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>SporVijın - Anasayfa</title>
+    <link href="css/tasarim.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <a name="ust"></a>
+        <div class="anaTasiyici">
+            <div class="sayfaBaslik">
+                <h2>
+                    <img src="Resimler/sporvijin-01.png" style="width:120px" /></h2>
+            </div>
+            <div class="uyePanel">
+                <a href="#">Üye Giriş</a>
+                <a href="#">Üye Ol</a>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div class="ayrac"></div>
+        <div class="anaTasiyici">
+            <div class="menu">
+                <a href="Default.aspx">Tüm Makaleler</a> | 
+                <asp:Repeater ID="rp_kategoriler" runat="server">
+                    <ItemTemplate>
+                        <a href='Default.aspx?kid=<%# Eval("ID") %>'><%# Eval("Isim") %></a>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
+        </div>
+        <div class="ayrac"></div>
+        <div class="anaTasiyici">
+            <div class="makaleAlani">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="reklamalani">
+                <a href="https://www.turhost.com/r/104820/hosting">
+                    <img src="reklamlar/160x600.gif" style="margin-left:20px;" />
+                </a>
+            </div>
+            <div style="clear:both"></div>
+            <a href="#ust" style="float:right; margin:20px;">Yukarı çık</a>
+        </div>
+    </form>
+</body>
+</html>
