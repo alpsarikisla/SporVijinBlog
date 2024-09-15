@@ -498,6 +498,27 @@ namespace VeriErisimKatmani
             }
         }
 
+        public void MakaleGoruntulemeArttir(int id)
+        {
+            try
+            {
+                komut.CommandText = "SELECT GoruntulemeSayisi FROM Makaleler WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                int sayi = Convert.ToInt32(komut.ExecuteScalar());
+                komut.CommandText = "UPDATE Makaleler SET GoruntulemeSayisi=@gs WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                komut.Parameters.AddWithValue("@gs", sayi + 1);
+                komut.ExecuteNonQuery();
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
         #endregion
     }
 }

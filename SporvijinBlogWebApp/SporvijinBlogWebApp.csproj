@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="css\tasarim.css" />
     <Content Include="Default.aspx" />
+    <Content Include="MakaleDetay.aspx" />
     <Content Include="reklamlar\160x600.gif" />
     <Content Include="Resimler\MakaleResimleri\none.png" />
     <Content Include="Resimler\sporvijin-01.png" />
@@ -406,6 +407,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MakaleDetay.aspx.cs">
+      <DependentUpon>MakaleDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakaleDetay.aspx.designer.cs">
+      <DependentUpon>MakaleDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
